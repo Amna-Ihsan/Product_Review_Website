@@ -13,7 +13,7 @@
 <p>🎨 Clean and modern UI focused on a beauty-themed aesthetic</p>
 
 <h1>💻 Tech Stack</h1>
-<p><b>HTML</b – Structure of the web pages</p>
+<p><b>HTML</b> – Structure of the web pages</p>
 
 <p><b>CSS</b> – Styling and responsive design</p>
 
