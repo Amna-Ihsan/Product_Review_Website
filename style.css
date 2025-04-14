@@ -474,7 +474,7 @@ nav {
 /* End Featured_products section  */
 
 .reviewFooter_section {
-  background-image: url("/images/footer-bg.jpg");
+  background-image: url("images/footer-bg.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
