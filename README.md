@@ -1,20 +1,22 @@
-💄 Beauty Product Review Website
-A responsive web application where users can read, write, and rate reviews of beauty products. Built with HTML, CSS, and JavaScript, this site allows users to share their experiences and opinions on various skincare, makeup, and cosmetic items.
+<h1>💄 Beauty Product Review Website</h1>
+<p>A responsive web application where users can read, write, and rate reviews of beauty products. Built with HTML, CSS, and JavaScript, this site allows users to share their experiences and opinions on various skincare, makeup, and cosmetic items.</p>
 
-✨ Features
-📝 Write detailed reviews for beauty products
+<h1>✨ Features</h1>
+<p>📝 Write detailed reviews for beauty products</p>
 
-⭐ Give star ratings (1 to 5 stars)
+<p>⭐ Give star ratings (1 to 5 stars)</p>
 
-👀 View other users' reviews and ratings
+<p>👀 View other users' reviews and ratings</p>
 
-📱 Fully responsive design for mobile, tablet, and desktop
+<p>📱 Fully responsive design for mobile, tablet, and desktop</p>
 
-🎨 Clean and modern UI focused on a beauty-themed aesthetic
+<p>🎨 Clean and modern UI focused on a beauty-themed aesthetic</p>
 
-💻 Tech Stack
-HTML – Structure of the web pages
+<h1>💻 Tech Stack</h1>
+<p><b>HTML</b – Structure of the web pages</p>
 
-CSS – Styling and responsive design
+<p><b>CSS</b> – Styling and responsive design</p>
 
-JavaScript – Review and rating functionality (dynamic interactivity)
+<p><b>JavaScript</b> – Review and rating functionality (dynamic interactivity)</p>
+
+<img src="project_pic.jpej" alt="Home Page" width="600"/>
