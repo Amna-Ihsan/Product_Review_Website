@@ -19,4 +19,5 @@
 
 <p><b>JavaScript</b> – Review and rating functionality (dynamic interactivity)</p>
 
-<img src="project_pic.jpej" alt="Home Page" width="600"/>
+
+![Home Page Screenshot](project_pic.jpej)
