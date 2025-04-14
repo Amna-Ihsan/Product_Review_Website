@@ -305,7 +305,7 @@ nav {
 
 /* blur-imageSection */
 .blur-imageSection {
-  background-image: url("images/blur_bg.jpg"); /* Ensure this is the correct path */
+  background-image: url("../images/blur_bg.jpg"); /* Ensure this is the correct path */
   width: 100%;
   height: 500px; /* Set a height for the section */
   background-position: center;
@@ -699,7 +699,7 @@ section .animate {
   justify-content: center;
   padding: 30px 0;
   overflow: hidden;
-  background-image: url("images/hair-bg.jpg"); /* Ensure this is the correct path */
+  background-image: url("../images/hair-bg.jpg"); /* Ensure this is the correct path */
   width: 100%;
 
   background-position: center;
