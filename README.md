@@ -20,4 +20,4 @@
 <p><b>JavaScript</b> – Review and rating functionality (dynamic interactivity)</p>
 
 
-![Home Page Screenshot](https://github.com/Amna-Ihsan/Product_Review_Website/blob/main/Project_pic.jpeg))
+![Home Page Screenshot](https://github.com/Amna-Ihsan/Product_Review_Website/blob/main/Project_pic.jpeg)
