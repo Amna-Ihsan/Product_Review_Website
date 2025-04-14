@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Review Website -Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="#" id="logo">Logo</a>
+      <div class="nav-div">
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="ProductReview.html">Product Review</a>
+          <a href="Lipstick.html">Top Products</a>
+         
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="dropdown">
+          <span onclick="myFunction()" class="dropbtn">
+            <i class="fa-solid fa-bars" style="color: black"></i>
+          </span>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Home</a>
+
+            <a href="ProductReview.html">Product Review</a>
+            <a href="Lipstick.html">Top Products</a>
+           
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Hero Section -->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="/images/category2.png" style="width: 100%" alt="" />
+        <div class="hero-content">
+          <h1>Your Ultimate Guide to Top Beauty Reviews</h1>
+          <p>
+            Explore a curated selection of the best beauty products, from
+            skincare to makeup, all backed by honest customer reviews and expert
+            ratings. Find what works for you based on real experiences and
+            discover your next favorite product.
+          </p>
+          <a href="Lipstick.html#Submit_a_review" class="heroBtn"
+            >Browse Beauty Reviews</a
+          >
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/images/home-bg2.jpg" style="width: 100%" />
+        <div class="hero-content" style="color: white">
+          <h1>Discover Top Beauty Picks</h1>
+          <p>
+            Discover the best beauty products that deliver real results. From
+            skincare to makeup, each product is carefully reviewed by experts
+            and customers alike, ensuring you find the perfect match for your
+            needs and preferences. Achieve radiant, flawless beauty with
+            confidence.
+          </p>
+          <a href="ProductReview.html" class="heroBtn">Discover More</a>
+        </div>
+      </div>
+      <div class="arrow">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+    </div>
+    <!-- End Hero Section -->
+    <!-- Category -->
+    <section class="category_Section">
+      <h1>Search by Category</h1>
+      <div class="categoryDiv">
+        <a class="category_container" href="ProductReview.html#Skincare">
+          <img
+            src="/images/Skincare.jpg"
+            alt="Skincare"
+            class="category_image"
+          />
+          <div class="category_overlay">
+            <small class="category_text">Skincare</small>
+          </div>
+        </a>
+        <a class="category_container" href="ProductReview.html#Makeup">
+          <img
+            src="/images/category2.png"
+            alt="Avatar"
+            class="category_image"
+          />
+          <div class="category_overlay">
+            <small class="category_text">Makeup</small>
+          </div>
+        </a>
+        <a class="category_container" href="ProductReview.html#Haircare">
+          <img src="/images/Haircare.jpg" alt="Avatar" class="category_image" />
+          <div class="category_overlay">
+            <small class="category_text">Haircare</small>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- End Category -->
+
+    <!-- blur background section -->
+    <section class="blur-imageSection">
+      <div class="blur-text show-animate">
+        <h1 class="animate" style="font-style: italic">
+          Honest insights to help you buy with confidence
+        </h1>
+      </div>
+    </section>
+    <!--End  blur background section -->
+    <!-- Featured_products -->
+    <section class="Featured_products">
+      <div class="FeaturedProduct_h1 show-animate">
+        <h1 class="animate-heading">Featured Beauty Products</h1>
+      </div>
+      <div class="Featured_productsDiv">
+        <div class="Featured_products_column show-animate">
+          <div class="Featured_productsImg animate">
+            <div class="Featured_productsImg_Div">
+              <img
+                src="/images/Luxury Lipstick.jpg"
+                class="Img_4"
+                alt="Luxury Lipstick"
+              />
+            </div>
+
+            <div class="Featured_productsOverlay">
+              <h3>Luxury Lipstick</h3>
+              <small style="padding: 5px 0px"
+                >Long-lasting and vibrant color</small
+              >
+              <div class="Featured_btnDiv">
+                <a
+                  href="Lipstick.html#Best value lipstick"
+                  class="Featured_ProductBtn"
+                  >View product</a
+                >
+                <div class="Featured_reviewsDiv">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <small>250 reviews</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Featured_productsImg animate">
+            <div class="Featured_productsImg_Div">
+              <img src="/images/Facial Serum.jpg" alt="Facial Serum" />
+            </div>
+
+            <div class="Featured_productsOverlay">
+              <h3>Facial Serum</h3>
+              <small style="padding: 5px 0px"
+                >Moisturizes and brightens the skin</small
+              >
+              <div class="Featured_btnDiv">
+                <a
+                  href="Lipstick.html#Best value lipstick"
+                  class="Featured_ProductBtn"
+                  >View product</a
+                >
+                <div class="Featured_reviewsDiv">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <small>250 reviews</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Featured_productsImg animate">
+            <div class="Featured_productsImg_Div">
+              <img
+                src="/images/Heat protection spray.jpg"
+                alt="Heat protection spray"
+              />
+            </div>
+
+            <div class="Featured_productsOverlay">
+              <h3>Heat protection spray</h3>
+              <small style="padding: 5px 0px"
+                >Shields hair from heat damage</small
+              >
+              <div class="Featured_btnDiv">
+                <a
+                  href="Lipstick.html#Best value lipstick"
+                  class="Featured_ProductBtn"
+                  >View product</a
+                >
+                <div class="Featured_reviewsDiv">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <small>250 reviews</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Featured_productsImg animate">
+            <div class="Featured_productsImg_Div">
+              <img src="/images/Best highlighter.jpg" alt="Best highlighter" />
+            </div>
+
+            <div class="Featured_productsOverlay">
+              <h3>Best highlighter</h3>
+              <small style="padding: 5px 0px"
+                >Enhances skin's natural glow</small
+              >
+              <div class="Featured_btnDiv">
+                <a
+                  href="Lipstick.html#Best value lipstick"
+                  class="Featured_ProductBtn"
+                  >View product</a
+                >
+                <div class="Featured_reviewsDiv">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <small>250 reviews</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Featured_products -->
+    <div class="reviewFooter_section">
+      <section class="reviewSection">
+        <h1>Top Reviews</h1>
+        <div class="reviewSection_div show-animate">
+          <div class="reviewCard animate" style="--i: 0">
+            <h3>Amazing Hydrating Moisturizer</h3>
+            <small>Reviewed by: Emily R.</small>
+            <p>
+              "This moisturizer is perfect for dry skin, giving it a smooth,
+              soft feeling all day long. I love how it absorbs quickly and
+              doesn’t leave any greasy residue behind. Highly recommended!"
+            </p>
+
+            <div class="reviewCard_rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="reviewCard animate" style="--i: 1">
+            <h3>My Go-To Serum</h3>
+            <small>Reviewed by: Sarah L.</small>
+            <p>
+              "This serum has made my skin look radiant and even-toned. I use it
+              twice daily, and it feels so light and refreshing. I highly
+              recommend this for anyone looking for smoother skin!"
+            </p>
+            <div class="reviewCard_rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="reviewCard animate" style="--i: 2">
+            <h3>Vitamin C Cleanser</h3>
+            <small>Reviewed by: James T.</small>
+            <p>
+              "This cleanser is my go-to in the morning. It cleanses my skin
+              thoroughly while leaving it feeling hydrated and refreshed. It has
+              a lovely citrus scent and works wonderfully for daily use!"
+            </p>
+
+            <div class="reviewCard_rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <h1>Logo</h1>
+        <div class="footerDiv">
+          <div class="footer-col">
+            <h4>About</h4>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="Lipstick.html#Submit_a_review">Submit a review</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Beauty</h4>
+            <a href="ProductReview.html">Product reviews</a>
+            <a href="Lipstick.html">Best Lipsticks</a>
+          </div>
+
+          <div class="footer-col">
+            <h4 id="contact">Contact</h4>
+            <a href="#">Email: someone@gmail.com</a>
+            <a href="#">Phone:548887987987</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Follow us</h4>
+            <a href="#">Tiktok</a>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
